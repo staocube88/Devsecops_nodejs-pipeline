@@ -49,7 +49,7 @@ jobs:
     needs: build
     name: Run the SCA scan on the source code
     steps:
-      - uses: actions/checkout@v3 # Use v3 for consistency
+      - uses: actions/checkout@master # Use v3 for consistency
       - name: RunSnyk to check for vulnerabilities
         uses: snyk/actions/node@master
         continue-on-error: true
