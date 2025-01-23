@@ -8,8 +8,8 @@ on:
     branches:
       - master
 
-permissions: # Permissions at the workflow level
-  security-events: write
+permissions: # 
+  security-events: read
   contents: write
 
 jobs:
