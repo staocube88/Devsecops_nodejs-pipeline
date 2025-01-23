@@ -8,10 +8,6 @@ on:
     branches:
       - master
 
-permissions: # 
-  security-events: read
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
