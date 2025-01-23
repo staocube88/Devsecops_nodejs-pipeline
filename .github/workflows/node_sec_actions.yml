@@ -10,7 +10,7 @@ on:
 
 permissions: # Permissions at the workflow level
   security-events: write
-  contents: read
+  contents: write
 
 jobs:
   build:
