@@ -37,8 +37,6 @@ jobs:
         args: >
           -Dsonar.organization=javaprojectreachability101
           -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.sources=.
-          -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
           -Dsonar.projectKey=staocube88_devsecops-with-github-actions-end-to-end-nodejs-project
   security:
     runs-on: ubuntu-latest
