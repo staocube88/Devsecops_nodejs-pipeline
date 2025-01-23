@@ -20,7 +20,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=javaprojectreachability101
-          -Dsonar.projectKey=devsecopsganodejsprojectkey
+          -Dsonar.projectKey=staocube88_devsecops-with-github-actions-end-to-end-nodejs-project
   security:
     runs-on: ubuntu-latest
     needs: build
