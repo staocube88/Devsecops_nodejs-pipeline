@@ -1,0 +1,4 @@
+10011 WARN
+10017 WARN
+10010	WARN	Ignore frameable response (clickjacking)
+10015	IGNORE	Server leaks version info via "Server" header
