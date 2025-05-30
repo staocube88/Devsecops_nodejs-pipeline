@@ -9,5 +9,9 @@ spec:
     - protocol: TCP
       port: 3000
       targetPort: 3000
-      nodePort: 30050  # Adjust as needed
+      nodePort: 30050 # Adjust as needed
   type: NodePort
+  template:
+    spec:
+      containers:
+        - image: ghcr.io/staocube88/devsecops_nodejs-pipeline:ed878cb
