@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nodejsapp
-          image: nodejsapp:latest
+          image: ghcr.io/staocube88/devsecops_nodejs-pipeline:80b8644
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
