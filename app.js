@@ -8,10 +8,11 @@ var prepareForWeather = require('./prepared-for-the-weather');
 
 var commandLineArgs = require("command-line-args");
 
-var cli = commandLineArgs([
+var options = commandLineArgs([
     { name: "location", alias: "l", type: String, defaultValue: "London" }
 ]);
-var location = cli.parse().location;
+var location = options.location;
+
 
 /* Fetch weather data */
 fetchWeather.fetchWeather(location,
