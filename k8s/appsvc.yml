@@ -14,4 +14,4 @@ spec:
   template:
     spec:
       containers:
-        - image: ghcr.io/staocube88/devsecops_nodejs-pipeline:7bc84d0
+        - image: ghcr.io/staocube88/devsecops_nodejs-pipeline:b41ecb2
